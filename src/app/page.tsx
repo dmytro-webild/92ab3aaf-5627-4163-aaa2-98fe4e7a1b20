@@ -64,13 +64,16 @@ export default function HomePage() {
           slides={[
             {
               imageSrc:
-                "http://img.b2bpic.net/free-photo/abstract-liquid-marble-orange-background-diy-experimental-art_53876-103616.jpg",              imageAlt: "Hand-painted luxury garment detail"},
+                "http://img.b2bpic.net/free-photo/abstract-liquid-marble-orange-background-diy-experimental-art_53876-103616.jpg",              imageAlt: "Hand-painted luxury garment detail"
+            },
             {
               imageSrc:
-                "http://img.b2bpic.net/free-photo/gold-chain-pomegranate_23-2149836417.jpg",              imageAlt: "Artistic wearable piece luxury fashion showcase"},
+                "http://img.b2bpic.net/free-photo/gold-chain-pomegranate_23-2149836417.jpg",              imageAlt: "Artistic wearable piece luxury fashion showcase"
+            },
             {
               imageSrc:
-                "http://img.b2bpic.net/free-photo/fashion-photo-young-magnificent-woman-blue-dress_158595-352.jpg",              imageAlt: "Limited edition hand-painted luxury dress"},
+                "http://img.b2bpic.net/free-photo/fashion-photo-young-magnificent-woman-blue-dress_158595-352.jpg",              imageAlt: "Limited edition hand-painted luxury dress"
+            },
           ]}
           autoplayDelay={4000}
           showDimOverlay={true}
@@ -99,7 +102,7 @@ export default function HomePage() {
             },
           ]}
           title="Featured Collection"
-          description="Each piece is a unique work of art, hand-painted with meticulous attention to detail and limited to exclusive quantities."
+          description="★★★★★ 4.9/5 from 250+ Collectors Worldwide — Each piece is a unique work of art, hand-painted with meticulous attention to detail and limited to exclusive quantities."
           tag="Limited Edition"
           tagIcon={Sparkles}
           gridVariant="two-columns-alternating-heights"
@@ -160,27 +163,33 @@ export default function HomePage() {
             {
               id: "1",              name: "Isabella Romano",              handle: "@isabella_roma",              testimonial:
                 "Each piece from ZARAVYA is a conversation starter. The hand-painted details are absolutely mesmerizing—I feel like I'm wearing a gallery.",              imageSrc:
-                "http://img.b2bpic.net/free-photo/young-handsome-stylish-brunette-man-with-coat-shoulders-intently-looking-camera-outdoor_574295-1313.jpg?_wi=1",              imageAlt: "Isabella Romano"},
+                "http://img.b2bpic.net/free-photo/young-handsome-stylish-brunette-man-with-coat-shoulders-intently-looking-camera-outdoor_574295-1313.jpg?_wi=1",              imageAlt: "Isabella Romano"
+            },
             {
               id: "2",              name: "Marcus Chen",              handle: "@luxe_collector",              testimonial:
                 "Finally, luxury that goes beyond logos. The craftsmanship and artistry in every stitch remind me why I invested in ZARAVYA.",              imageSrc:
-                "http://img.b2bpic.net/free-photo/young-handsome-man-choosing-shirt-shop_1303-19866.jpg?_wi=1",              imageAlt: "Marcus Chen"},
+                "http://img.b2bpic.net/free-photo/young-handsome-man-choosing-shirt-shop_1303-19866.jpg?_wi=1",              imageAlt: "Marcus Chen"
+            },
             {
               id: "3",              name: "Sophie Beaumont",              handle: "@sophie_style",              testimonial:
                 "ZARAVYA pieces are investment-grade wearable art. The exclusivity and creativity are unmatched in the luxury fashion world.",              imageSrc:
-                "http://img.b2bpic.net/free-photo/elderly-business-woman-grey-suit-outdoors_1303-29564.jpg?_wi=1",              imageAlt: "Sophie Beaumont"},
+                "http://img.b2bpic.net/free-photo/elderly-business-woman-grey-suit-outdoors_1303-29564.jpg?_wi=1",              imageAlt: "Sophie Beaumont"
+            },
             {
               id: "4",              name: "James Sterling",              handle: "@art_collector_james",              testimonial:
                 "Owning a ZARAVYA garment is like owning a miniature art installation. The hand-painted details are breathtaking.",              imageSrc:
-                "http://img.b2bpic.net/free-photo/transgender-person-wearing-yellow-jacket-make-up_23-2148827068.jpg?_wi=1",              imageAlt: "James Sterling"},
+                "http://img.b2bpic.net/free-photo/transgender-person-wearing-yellow-jacket-make-up_23-2148827068.jpg?_wi=1",              imageAlt: "James Sterling"
+            },
             {
               id: "5",              name: "Amara Okonkwo",              handle: "@amara_luxe",              testimonial:
                 "The level of attention to detail is extraordinary. Every brushstroke tells a story. I'm a ZARAVYA collector for life.",              imageSrc:
-                "http://img.b2bpic.net/free-photo/woman-purple-bathrobe-bedroom_1303-11275.jpg?_wi=1",              imageAlt: "Amara Okonkwo"},
+                "http://img.b2bpic.net/free-photo/woman-purple-bathrobe-bedroom_1303-11275.jpg?_wi=1",              imageAlt: "Amara Okonkwo"
+            },
             {
               id: "6",              name: "Victoria Ashford",              handle: "@vashford",              testimonial:
                 "ZARAVYA has redefined what luxury means to me. It's not about the brand—it's about the art, the soul, and the uniqueness.",              imageSrc:
-                "http://img.b2bpic.net/free-photo/front-view-woman-posing-as-greek-goddess_23-2150099230.jpg?_wi=1",              imageAlt: "Victoria Ashford"},
+                "http://img.b2bpic.net/free-photo/front-view-woman-posing-as-greek-goddess_23-2150099230.jpg?_wi=1",              imageAlt: "Victoria Ashford"
+            },
           ]}
           animationType="slide-up"
           textboxLayout="default"
@@ -201,31 +210,38 @@ export default function HomePage() {
                 "Each garment is individually created by master artisans using traditional techniques and premium materials.",              bentoComponent: "icon-info-cards",              items: [
                 {
                   icon: Palette,
-                  label: "Custom Artistry",                  value: "100% Bespoke"},
+                  label: "Custom Artistry",                  value: "100% Bespoke"
+                },
                 {
                   icon: Sparkles,
-                  label: "Premium Quality",                  value: "Uncompromised"},
+                  label: "Premium Quality",                  value: "Uncompromised"
+                },
                 {
                   icon: Award,
-                  label: "Certified",                  value: "Authenticated"},
+                  label: "Certified",                  value: "Authenticated"
+                },
               ],
             },
             {
               title: "Ultimate Exclusivity",              description: "Limited production runs ensure your piece remains rare and distinctive.",              bentoComponent: "marquee",              centerIcon: Lock,
               variant: "text",              texts: [
-                "Never Mass-Produced",                "One-of-a-Kind Designs",                "Numbered Certificates",                "Exclusive Ownership"],
+                "Never Mass-Produced",                "One-of-a-Kind Designs",                "Numbered Certificates",                "Exclusive Ownership"
+              ],
             },
             {
               title: "Investment-Grade Pieces",              description: "ZARAVYA garments appreciate in value and are recognized by luxury collectors globally.",              bentoComponent: "3d-stack-cards",              items: [
                 {
                   icon: TrendingUp,
-                  title: "Value Appreciation",                  subtitle: "Growing Demand",                  detail: "Collector items with increasing worth"},
+                  title: "Value Appreciation",                  subtitle: "Growing Demand",                  detail: "Collector items with increasing worth"
+                },
                 {
                   icon: Globe,
-                  title: "Global Recognition",                  subtitle: "Worldwide Collectors",                  detail: "Sought after by luxury enthusiasts"},
+                  title: "Global Recognition",                  subtitle: "Worldwide Collectors",                  detail: "Sought after by luxury enthusiasts"
+                },
                 {
                   icon: Flame,
-                  title: "Timeless Appeal",                  subtitle: "Lasting Impact",                  detail: "Pieces that transcend trends"},
+                  title: "Timeless Appeal",                  subtitle: "Lasting Impact",                  detail: "Pieces that transcend trends"
+                },
               ],
             },
           ]}
