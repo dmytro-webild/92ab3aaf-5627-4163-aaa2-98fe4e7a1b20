@@ -56,7 +56,7 @@ export default function CollectionPage() {
               price: "$2,450",
               variant: "Hand-painted Sunset  1 of 3",
               imageSrc:
-                "http://img.b2bpic.net/free-photo/front-view-couple-posing-together_23-2148546987.jpg",
+                "http://img.b2bpic.net/free-photo/front-view-couple-posing-together_23-2148546987.jpg?_wi=2",
               imageAlt: "Aurora Silk Shirt - hand-painted sunset tones",
               isFavorited: false,
             },
@@ -66,7 +66,7 @@ export default function CollectionPage() {
               price: "$3,200",
               variant: "Starfield Design  1 of 2",
               imageSrc:
-                "http://img.b2bpic.net/free-vector/abstract-background-watercolor-stars_23-2147651165.jpg",
+                "http://img.b2bpic.net/free-vector/abstract-background-watercolor-stars_23-2147651165.jpg?_wi=2",
               imageAlt: "Cosmic Sleeve Dress - hand-painted galaxy design",
               isFavorited: false,
             },
@@ -76,7 +76,7 @@ export default function CollectionPage() {
               price: "$2,800",
               variant: "Abstract Earth Tones  1 of 1",
               imageSrc:
-                "http://img.b2bpic.net/free-photo/close-up-ceramic-texture-background_23-2148383596.jpg",
+                "http://img.b2bpic.net/free-photo/close-up-ceramic-texture-background_23-2148383596.jpg?_wi=2",
               imageAlt: "Brushstroke Jacket - unique hand-painted abstract",
               isFavorited: false,
             },
@@ -86,7 +86,7 @@ export default function CollectionPage() {
               price: "$1,950",
               variant: "Ombre Gradient  1 of 4",
               imageSrc:
-                "http://img.b2bpic.net/free-photo/young-bearded-tattooed-man-romantic-guy-white-shirt-cap-suspenders-walks-city-revolves-around-lamppost-peaky-blinders-old-fashioned-retro_1321-2039.jpg",
+                "http://img.b2bpic.net/free-photo/young-bearded-tattooed-man-romantic-guy-white-shirt-cap-suspenders-walks-city-revolves-around-lamppost-peaky-blinders-old-fashioned-retro_1321-2039.jpg?_wi=2",
               imageAlt: "Watercolor Pants - hand-painted ombre effect",
               isFavorited: false,
             },
@@ -96,7 +96,7 @@ export default function CollectionPage() {
               price: "$2,100",
               variant: "Experimental Bold  1 of 2",
               imageSrc:
-                "http://img.b2bpic.net/free-photo/front-view-couple-posing-together_23-2148546987.jpg",
+                "http://img.b2bpic.net/free-photo/front-view-couple-posing-together_23-2148546987.jpg?_wi=3",
               imageAlt: "Crimson Canvas Vest - experimental bold design",
               isFavorited: false,
             },
@@ -106,7 +106,7 @@ export default function CollectionPage() {
               price: "$2,650",
               variant: "Gradient Elegance  1 of 1",
               imageSrc:
-                "http://img.b2bpic.net/free-photo/fashion-photo-young-magnificent-woman-blue-dress_158595-352.jpg",
+                "http://img.b2bpic.net/free-photo/fashion-photo-young-magnificent-woman-blue-dress_158595-352.jpg?_wi=2",
               imageAlt: "Ethereal Flow Skirt - gradient elegance design",
               isFavorited: false,
             },
