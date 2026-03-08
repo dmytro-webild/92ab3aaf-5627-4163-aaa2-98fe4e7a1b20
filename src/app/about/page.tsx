@@ -20,8 +20,7 @@ export default function AboutPage() {
 
   const footerColumns = [
     {
-      title: "Collection",
-      items: [
+      title: "Collection",      items: [
         { label: "Featured Pieces", href: "/shop" },
         { label: "Shop All", href: "/shop" },
         { label: "Limited Drops", href: "/shop" },
@@ -29,8 +28,7 @@ export default function AboutPage() {
       ],
     },
     {
-      title: "Company",
-      items: [
+      title: "Company",      items: [
         { label: "Our Story", href: "/about" },
         { label: "Craftsmanship", href: "/about" },
         { label: "Press", href: "#" },
@@ -38,8 +36,7 @@ export default function AboutPage() {
       ],
     },
     {
-      title: "Connect",
-      items: [
+      title: "Connect",      items: [
         { label: "Instagram", href: "https://instagram.com" },
         { label: "Contact", href: "/contact" },
         { label: "Newsletter", href: "#" },
@@ -47,8 +44,7 @@ export default function AboutPage() {
       ],
     },
     {
-      title: "Resources",
-      items: [
+      title: "Resources",      items: [
         { label: "Care Guide", href: "#" },
         { label: "Shipping", href: "#" },
         { label: "Returns", href: "#" },
@@ -96,9 +92,10 @@ export default function AboutPage() {
             { value: "100%", title: "Hand-Painted by Master Artisans" },
             { value: "Limited", title: "Ultra-Exclusive Production Runs" },
           ]}
-          imageSrc="http://img.b2bpic.net/free-photo/close-up-woman-with-brush-painting_23-2148263488.jpg?_wi=2"
+          imageSrc="http://img.b2bpic.net/free-photo/close-up-woman-with-brush-painting_23-2148263488.jpg"
           imageAlt="Master artisan hand-painting luxury garment"
           mediaAnimation="slide-up"
+          metricsAnimation="slide-up"
           useInvertedBackground={false}
         />
       </div>
@@ -109,25 +106,13 @@ export default function AboutPage() {
           description="Redefining luxury through artisanal excellence and creative vision"
           metrics={[
             {
-              id: "1",
-              value: "500+",
-              title: "Masterpieces Created",
-              description: "Hand-painted works of wearable art",
-              icon: Palette,
+              id: "1",              value: "500+",              title: "Masterpieces Created",              description: "Hand-painted works of wearable art",              icon: Palette,
             },
             {
-              id: "2",
-              value: "95%",
-              title: "Client Satisfaction",
-              description: "Collectors worldwide cherish their pieces",
-              icon: Star,
+              id: "2",              value: "95%",              title: "Client Satisfaction",              description: "Collectors worldwide cherish their pieces",              icon: Star,
             },
             {
-              id: "3",
-              value: "15+",
-              title: "Years Experience",
-              description: "Master artisans with unparalleled expertise",
-              icon: Award,
+              id: "3",              value: "15+",              title: "Years Experience",              description: "Master artisans with unparalleled expertise",              icon: Award,
             },
           ]}
           gridVariant="uniform-all-items-equal"
@@ -145,53 +130,17 @@ export default function AboutPage() {
           tagIcon={Sparkles}
           testimonials={[
             {
-              id: "1",
-              name: "Isabella Romano",
-              handle: "@isabella_roma",
-              testimonial: "Each piece from ZARAVYA is a conversation starter. The hand-painted details are absolutely mesmerizing—I feel like I'm wearing a gallery.",
-              imageSrc: "http://img.b2bpic.net/free-photo/young-handsome-stylish-brunette-man-with-coat-shoulders-intently-looking-camera-outdoor_574295-1313.jpg?_wi=2",
-              imageAlt: "Isabella Romano",
-            },
+              id: "1",              name: "Isabella Romano",              handle: "@isabella_roma",              testimonial: "Each piece from ZARAVYA is a conversation starter. The hand-painted details are absolutely mesmerizing—I feel like I'm wearing a gallery.",              imageSrc: "http://img.b2bpic.net/free-photo/young-handsome-stylish-brunette-man-with-coat-shoulders-intently-looking-camera-outdoor_574295-1313.jpg",              imageAlt: "Isabella Romano"},
             {
-              id: "2",
-              name: "Marcus Chen",
-              handle: "@luxe_collector",
-              testimonial: "Finally, luxury that goes beyond logos. The craftsmanship and artistry in every stitch remind me why I invested in ZARAVYA.",
-              imageSrc: "http://img.b2bpic.net/free-photo/young-handsome-man-choosing-shirt-shop_1303-19866.jpg?_wi=2",
-              imageAlt: "Marcus Chen",
-            },
+              id: "2",              name: "Marcus Chen",              handle: "@luxe_collector",              testimonial: "Finally, luxury that goes beyond logos. The craftsmanship and artistry in every stitch remind me why I invested in ZARAVYA.",              imageSrc: "http://img.b2bpic.net/free-photo/young-handsome-man-choosing-shirt-shop_1303-19866.jpg",              imageAlt: "Marcus Chen"},
             {
-              id: "3",
-              name: "Sophie Beaumont",
-              handle: "@sophie_style",
-              testimonial: "ZARAVYA pieces are investment-grade wearable art. The exclusivity and creativity are unmatched in the luxury fashion world.",
-              imageSrc: "http://img.b2bpic.net/free-photo/elderly-business-woman-grey-suit-outdoors_1303-29564.jpg?_wi=2",
-              imageAlt: "Sophie Beaumont",
-            },
+              id: "3",              name: "Sophie Beaumont",              handle: "@sophie_style",              testimonial: "ZARAVYA pieces are investment-grade wearable art. The exclusivity and creativity are unmatched in the luxury fashion world.",              imageSrc: "http://img.b2bpic.net/free-photo/elderly-business-woman-grey-suit-outdoors_1303-29564.jpg",              imageAlt: "Sophie Beaumont"},
             {
-              id: "4",
-              name: "James Sterling",
-              handle: "@art_collector_james",
-              testimonial: "Owning a ZARAVYA garment is like owning a miniature art installation. The hand-painted details are breathtaking.",
-              imageSrc: "http://img.b2bpic.net/free-photo/transgender-person-wearing-yellow-jacket-make-up_23-2148827068.jpg?_wi=2",
-              imageAlt: "James Sterling",
-            },
+              id: "4",              name: "James Sterling",              handle: "@art_collector_james",              testimonial: "Owning a ZARAVYA garment is like owning a miniature art installation. The hand-painted details are breathtaking.",              imageSrc: "http://img.b2bpic.net/free-photo/transgender-person-wearing-yellow-jacket-make-up_23-2148827068.jpg",              imageAlt: "James Sterling"},
             {
-              id: "5",
-              name: "Amara Okonkwo",
-              handle: "@amara_luxe",
-              testimonial: "The level of attention to detail is extraordinary. Every brushstroke tells a story. I'm a ZARAVYA collector for life.",
-              imageSrc: "http://img.b2bpic.net/free-photo/woman-purple-bathrobe-bedroom_1303-11275.jpg?_wi=2",
-              imageAlt: "Amara Okonkwo",
-            },
+              id: "5",              name: "Amara Okonkwo",              handle: "@amara_luxe",              testimonial: "The level of attention to detail is extraordinary. Every brushstroke tells a story. I'm a ZARAVYA collector for life.",              imageSrc: "http://img.b2bpic.net/free-photo/woman-purple-bathrobe-bedroom_1303-11275.jpg",              imageAlt: "Amara Okonkwo"},
             {
-              id: "6",
-              name: "Victoria Ashford",
-              handle: "@vashford",
-              testimonial: "ZARAVYA has redefined what luxury means to me. It's not about the brand—it's about the art, the soul, and the uniqueness.",
-              imageSrc: "http://img.b2bpic.net/free-photo/front-view-woman-posing-as-greek-goddess_23-2150099230.jpg?_wi=2",
-              imageAlt: "Victoria Ashford",
-            },
+              id: "6",              name: "Victoria Ashford",              handle: "@vashford",              testimonial: "ZARAVYA has redefined what luxury means to me. It's not about the brand—it's about the art, the soul, and the uniqueness.",              imageSrc: "http://img.b2bpic.net/free-photo/front-view-woman-posing-as-greek-goddess_23-2150099230.jpg",              imageAlt: "Victoria Ashford"},
           ]}
           animationType="slide-up"
           textboxLayout="default"

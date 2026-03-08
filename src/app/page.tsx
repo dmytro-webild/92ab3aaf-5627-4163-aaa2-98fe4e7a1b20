@@ -64,19 +64,13 @@ export default function HomePage() {
           slides={[
             {
               imageSrc:
-                "http://img.b2bpic.net/free-photo/abstract-liquid-marble-orange-background-diy-experimental-art_53876-103616.jpg",
-              imageAlt: "Hand-painted luxury garment detail",
-            },
+                "http://img.b2bpic.net/free-photo/abstract-liquid-marble-orange-background-diy-experimental-art_53876-103616.jpg",              imageAlt: "Hand-painted luxury garment detail"},
             {
               imageSrc:
-                "http://img.b2bpic.net/free-photo/gold-chain-pomegranate_23-2149836417.jpg",
-              imageAlt: "Artistic wearable piece luxury fashion showcase",
-            },
+                "http://img.b2bpic.net/free-photo/gold-chain-pomegranate_23-2149836417.jpg",              imageAlt: "Artistic wearable piece luxury fashion showcase"},
             {
               imageSrc:
-                "http://img.b2bpic.net/free-photo/fashion-photo-young-magnificent-woman-blue-dress_158595-352.jpg?_wi=1",
-              imageAlt: "Limited edition hand-painted luxury dress",
-            },
+                "http://img.b2bpic.net/free-photo/fashion-photo-young-magnificent-woman-blue-dress_158595-352.jpg",              imageAlt: "Limited edition hand-painted luxury dress"},
           ]}
           autoplayDelay={4000}
           showDimOverlay={true}
@@ -88,44 +82,20 @@ export default function HomePage() {
         <ProductCardFour
           products={[
             {
-              id: "1",
-              name: "Aurora Silk Shirt",
-              price: "$2,450",
-              variant: "Hand-painted Sunset  1 of 3",
-              imageSrc:
-                "http://img.b2bpic.net/free-photo/front-view-couple-posing-together_23-2148546987.jpg?_wi=1",
-              imageAlt: "Aurora Silk Shirt - hand-painted sunset tones",
-              isFavorited: false,
+              id: "1",              name: "Aurora Silk Shirt",              price: "$2,450",              variant: "Hand-painted Sunset  1 of 3",              imageSrc:
+                "http://img.b2bpic.net/free-photo/front-view-couple-posing-together_23-2148546987.jpg",              imageAlt: "Aurora Silk Shirt - hand-painted sunset tones",              isFavorited: false,
             },
             {
-              id: "2",
-              name: "Cosmic Sleeve Dress",
-              price: "$3,200",
-              variant: "Starfield Design  1 of 2",
-              imageSrc:
-                "http://img.b2bpic.net/free-vector/abstract-background-watercolor-stars_23-2147651165.jpg?_wi=1",
-              imageAlt: "Cosmic Sleeve Dress - hand-painted galaxy design",
-              isFavorited: false,
+              id: "2",              name: "Cosmic Sleeve Dress",              price: "$3,200",              variant: "Starfield Design  1 of 2",              imageSrc:
+                "http://img.b2bpic.net/free-vector/abstract-background-watercolor-stars_23-2147651165.jpg",              imageAlt: "Cosmic Sleeve Dress - hand-painted galaxy design",              isFavorited: false,
             },
             {
-              id: "3",
-              name: "Brushstroke Jacket",
-              price: "$2,800",
-              variant: "Abstract Earth Tones  1 of 1",
-              imageSrc:
-                "http://img.b2bpic.net/free-photo/close-up-ceramic-texture-background_23-2148383596.jpg?_wi=1",
-              imageAlt: "Brushstroke Jacket - unique hand-painted abstract",
-              isFavorited: false,
+              id: "3",              name: "Brushstroke Jacket",              price: "$2,800",              variant: "Abstract Earth Tones  1 of 1",              imageSrc:
+                "http://img.b2bpic.net/free-photo/close-up-ceramic-texture-background_23-2148383596.jpg",              imageAlt: "Brushstroke Jacket - unique hand-painted abstract",              isFavorited: false,
             },
             {
-              id: "4",
-              name: "Watercolor Pants",
-              price: "$1,950",
-              variant: "Ombre Gradient  1 of 4",
-              imageSrc:
-                "http://img.b2bpic.net/free-photo/young-bearded-tattooed-man-romantic-guy-white-shirt-cap-suspenders-walks-city-revolves-around-lamppost-peaky-blinders-old-fashioned-retro_1321-2039.jpg?_wi=1",
-              imageAlt: "Watercolor Pants - hand-painted ombre effect",
-              isFavorited: false,
+              id: "4",              name: "Watercolor Pants",              price: "$1,950",              variant: "Ombre Gradient  1 of 4",              imageSrc:
+                "http://img.b2bpic.net/free-photo/young-bearded-tattooed-man-romantic-guy-white-shirt-cap-suspenders-walks-city-revolves-around-lamppost-peaky-blinders-old-fashioned-retro_1321-2039.jpg",              imageAlt: "Watercolor Pants - hand-painted ombre effect",              isFavorited: false,
             },
           ]}
           title="Featured Collection"
@@ -150,9 +120,10 @@ export default function HomePage() {
             { value: "100%", title: "Hand-Painted by Master Artisans" },
             { value: "Limited", title: "Ultra-Exclusive Production Runs" },
           ]}
-          imageSrc="http://img.b2bpic.net/free-photo/close-up-woman-with-brush-painting_23-2148263488.jpg?_wi=1"
+          imageSrc="http://img.b2bpic.net/free-photo/close-up-woman-with-brush-painting_23-2148263488.jpg"
           imageAlt="Master artisan hand-painting a garment"
           mediaAnimation="slide-up"
+          metricsAnimation="slide-up"
           useInvertedBackground={false}
         />
       </div>
@@ -163,25 +134,13 @@ export default function HomePage() {
           description="Redefining luxury through artisanal excellence and creative vision"
           metrics={[
             {
-              id: "1",
-              value: "500+",
-              title: "Masterpieces Created",
-              description: "Hand-painted works of wearable art",
-              icon: Palette,
+              id: "1",              value: "500+",              title: "Masterpieces Created",              description: "Hand-painted works of wearable art",              icon: Palette,
             },
             {
-              id: "2",
-              value: "95%",
-              title: "Client Satisfaction",
-              description: "Collectors worldwide cherish their pieces",
-              icon: Star,
+              id: "2",              value: "95%",              title: "Client Satisfaction",              description: "Collectors worldwide cherish their pieces",              icon: Star,
             },
             {
-              id: "3",
-              value: "15+",
-              title: "Years Experience",
-              description: "Master artisans with unparalleled expertise",
-              icon: Award,
+              id: "3",              value: "15+",              title: "Years Experience",              description: "Master artisans with unparalleled expertise",              icon: Award,
             },
           ]}
           gridVariant="uniform-all-items-equal"
@@ -199,65 +158,29 @@ export default function HomePage() {
           tagIcon={Sparkles}
           testimonials={[
             {
-              id: "1",
-              name: "Isabella Romano",
-              handle: "@isabella_roma",
-              testimonial:
-                "Each piece from ZARAVYA is a conversation starter. The hand-painted details are absolutely mesmerizing—I feel like I'm wearing a gallery.",
-              imageSrc:
-                "http://img.b2bpic.net/free-photo/young-handsome-stylish-brunette-man-with-coat-shoulders-intently-looking-camera-outdoor_574295-1313.jpg?_wi=1",
-              imageAlt: "Isabella Romano",
-            },
+              id: "1",              name: "Isabella Romano",              handle: "@isabella_roma",              testimonial:
+                "Each piece from ZARAVYA is a conversation starter. The hand-painted details are absolutely mesmerizing—I feel like I'm wearing a gallery.",              imageSrc:
+                "http://img.b2bpic.net/free-photo/young-handsome-stylish-brunette-man-with-coat-shoulders-intently-looking-camera-outdoor_574295-1313.jpg",              imageAlt: "Isabella Romano"},
             {
-              id: "2",
-              name: "Marcus Chen",
-              handle: "@luxe_collector",
-              testimonial:
-                "Finally, luxury that goes beyond logos. The craftsmanship and artistry in every stitch remind me why I invested in ZARAVYA.",
-              imageSrc:
-                "http://img.b2bpic.net/free-photo/young-handsome-man-choosing-shirt-shop_1303-19866.jpg?_wi=1",
-              imageAlt: "Marcus Chen",
-            },
+              id: "2",              name: "Marcus Chen",              handle: "@luxe_collector",              testimonial:
+                "Finally, luxury that goes beyond logos. The craftsmanship and artistry in every stitch remind me why I invested in ZARAVYA.",              imageSrc:
+                "http://img.b2bpic.net/free-photo/young-handsome-man-choosing-shirt-shop_1303-19866.jpg",              imageAlt: "Marcus Chen"},
             {
-              id: "3",
-              name: "Sophie Beaumont",
-              handle: "@sophie_style",
-              testimonial:
-                "ZARAVYA pieces are investment-grade wearable art. The exclusivity and creativity are unmatched in the luxury fashion world.",
-              imageSrc:
-                "http://img.b2bpic.net/free-photo/elderly-business-woman-grey-suit-outdoors_1303-29564.jpg?_wi=1",
-              imageAlt: "Sophie Beaumont",
-            },
+              id: "3",              name: "Sophie Beaumont",              handle: "@sophie_style",              testimonial:
+                "ZARAVYA pieces are investment-grade wearable art. The exclusivity and creativity are unmatched in the luxury fashion world.",              imageSrc:
+                "http://img.b2bpic.net/free-photo/elderly-business-woman-grey-suit-outdoors_1303-29564.jpg",              imageAlt: "Sophie Beaumont"},
             {
-              id: "4",
-              name: "James Sterling",
-              handle: "@art_collector_james",
-              testimonial:
-                "Owning a ZARAVYA garment is like owning a miniature art installation. The hand-painted details are breathtaking.",
-              imageSrc:
-                "http://img.b2bpic.net/free-photo/transgender-person-wearing-yellow-jacket-make-up_23-2148827068.jpg?_wi=1",
-              imageAlt: "James Sterling",
-            },
+              id: "4",              name: "James Sterling",              handle: "@art_collector_james",              testimonial:
+                "Owning a ZARAVYA garment is like owning a miniature art installation. The hand-painted details are breathtaking.",              imageSrc:
+                "http://img.b2bpic.net/free-photo/transgender-person-wearing-yellow-jacket-make-up_23-2148827068.jpg",              imageAlt: "James Sterling"},
             {
-              id: "5",
-              name: "Amara Okonkwo",
-              handle: "@amara_luxe",
-              testimonial:
-                "The level of attention to detail is extraordinary. Every brushstroke tells a story. I'm a ZARAVYA collector for life.",
-              imageSrc:
-                "http://img.b2bpic.net/free-photo/woman-purple-bathrobe-bedroom_1303-11275.jpg?_wi=1",
-              imageAlt: "Amara Okonkwo",
-            },
+              id: "5",              name: "Amara Okonkwo",              handle: "@amara_luxe",              testimonial:
+                "The level of attention to detail is extraordinary. Every brushstroke tells a story. I'm a ZARAVYA collector for life.",              imageSrc:
+                "http://img.b2bpic.net/free-photo/woman-purple-bathrobe-bedroom_1303-11275.jpg",              imageAlt: "Amara Okonkwo"},
             {
-              id: "6",
-              name: "Victoria Ashford",
-              handle: "@vashford",
-              testimonial:
-                "ZARAVYA has redefined what luxury means to me. It's not about the brand—it's about the art, the soul, and the uniqueness.",
-              imageSrc:
-                "http://img.b2bpic.net/free-photo/front-view-woman-posing-as-greek-goddess_23-2150099230.jpg?_wi=1",
-              imageAlt: "Victoria Ashford",
-            },
+              id: "6",              name: "Victoria Ashford",              handle: "@vashford",              testimonial:
+                "ZARAVYA has redefined what luxury means to me. It's not about the brand—it's about the art, the soul, and the uniqueness.",              imageSrc:
+                "http://img.b2bpic.net/free-photo/front-view-woman-posing-as-greek-goddess_23-2150099230.jpg",              imageAlt: "Victoria Ashford"},
           ]}
           animationType="slide-up"
           textboxLayout="default"
@@ -274,64 +197,35 @@ export default function HomePage() {
           tagIcon={Zap}
           features={[
             {
-              title: "Hand-Painted Excellence",
-              description:
-                "Each garment is individually created by master artisans using traditional techniques and premium materials.",
-              bentoComponent: "icon-info-cards",
-              items: [
+              title: "Hand-Painted Excellence",              description:
+                "Each garment is individually created by master artisans using traditional techniques and premium materials.",              bentoComponent: "icon-info-cards",              items: [
                 {
                   icon: Palette,
-                  label: "Custom Artistry",
-                  value: "100% Bespoke",
-                },
+                  label: "Custom Artistry",                  value: "100% Bespoke"},
                 {
                   icon: Sparkles,
-                  label: "Premium Quality",
-                  value: "Uncompromised",
-                },
+                  label: "Premium Quality",                  value: "Uncompromised"},
                 {
                   icon: Award,
-                  label: "Certified",
-                  value: "Authenticated",
-                },
+                  label: "Certified",                  value: "Authenticated"},
               ],
             },
             {
-              title: "Ultimate Exclusivity",
-              description: "Limited production runs ensure your piece remains rare and distinctive.",
-              bentoComponent: "marquee",
-              centerIcon: Lock,
-              variant: "text",
-              texts: [
-                "Never Mass-Produced",
-                "One-of-a-Kind Designs",
-                "Numbered Certificates",
-                "Exclusive Ownership",
-              ],
+              title: "Ultimate Exclusivity",              description: "Limited production runs ensure your piece remains rare and distinctive.",              bentoComponent: "marquee",              centerIcon: Lock,
+              variant: "text",              texts: [
+                "Never Mass-Produced",                "One-of-a-Kind Designs",                "Numbered Certificates",                "Exclusive Ownership"],
             },
             {
-              title: "Investment-Grade Pieces",
-              description: "ZARAVYA garments appreciate in value and are recognized by luxury collectors globally.",
-              bentoComponent: "3d-stack-cards",
-              items: [
+              title: "Investment-Grade Pieces",              description: "ZARAVYA garments appreciate in value and are recognized by luxury collectors globally.",              bentoComponent: "3d-stack-cards",              items: [
                 {
                   icon: TrendingUp,
-                  title: "Value Appreciation",
-                  subtitle: "Growing Demand",
-                  detail: "Collector items with increasing worth",
-                },
+                  title: "Value Appreciation",                  subtitle: "Growing Demand",                  detail: "Collector items with increasing worth"},
                 {
                   icon: Globe,
-                  title: "Global Recognition",
-                  subtitle: "Worldwide Collectors",
-                  detail: "Sought after by luxury enthusiasts",
-                },
+                  title: "Global Recognition",                  subtitle: "Worldwide Collectors",                  detail: "Sought after by luxury enthusiasts"},
                 {
                   icon: Flame,
-                  title: "Timeless Appeal",
-                  subtitle: "Lasting Impact",
-                  detail: "Pieces that transcend trends",
-                },
+                  title: "Timeless Appeal",                  subtitle: "Lasting Impact",                  detail: "Pieces that transcend trends"},
               ],
             },
           ]}
@@ -362,8 +256,7 @@ export default function HomePage() {
           logoText="ZARAVYA"
           columns={[
             {
-              title: "Collection",
-              items: [
+              title: "Collection",              items: [
                 { label: "Featured Pieces", href: "#collection" },
                 { label: "Shop All", href: "#shop" },
                 { label: "Limited Drops", href: "#shop" },
@@ -371,8 +264,7 @@ export default function HomePage() {
               ],
             },
             {
-              title: "Company",
-              items: [
+              title: "Company",              items: [
                 { label: "Our Story", href: "#about" },
                 { label: "Craftsmanship", href: "#about" },
                 { label: "Press", href: "#" },
@@ -380,8 +272,7 @@ export default function HomePage() {
               ],
             },
             {
-              title: "Connect",
-              items: [
+              title: "Connect",              items: [
                 { label: "Instagram", href: "https://instagram.com" },
                 { label: "Contact", href: "#contact" },
                 { label: "Newsletter", href: "#" },
@@ -389,8 +280,7 @@ export default function HomePage() {
               ],
             },
             {
-              title: "Resources",
-              items: [
+              title: "Resources",              items: [
                 { label: "Care Guide", href: "#" },
                 { label: "Shipping", href: "#" },
                 { label: "Returns", href: "#" },
