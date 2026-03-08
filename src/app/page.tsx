@@ -74,7 +74,7 @@ export default function HomePage() {
             },
             {
               imageSrc:
-                "http://img.b2bpic.net/free-photo/fashion-photo-young-magnificent-woman-blue-dress_158595-352.jpg",
+                "http://img.b2bpic.net/free-photo/fashion-photo-young-magnificent-woman-blue-dress_158595-352.jpg?_wi=1",
               imageAlt: "Limited edition hand-painted luxury dress",
             },
           ]}
@@ -93,7 +93,7 @@ export default function HomePage() {
               price: "$2,450",
               variant: "Hand-painted Sunset  1 of 3",
               imageSrc:
-                "http://img.b2bpic.net/free-photo/front-view-couple-posing-together_23-2148546987.jpg",
+                "http://img.b2bpic.net/free-photo/front-view-couple-posing-together_23-2148546987.jpg?_wi=1",
               imageAlt: "Aurora Silk Shirt - hand-painted sunset tones",
               isFavorited: false,
             },
@@ -103,7 +103,7 @@ export default function HomePage() {
               price: "$3,200",
               variant: "Starfield Design  1 of 2",
               imageSrc:
-                "http://img.b2bpic.net/free-vector/abstract-background-watercolor-stars_23-2147651165.jpg",
+                "http://img.b2bpic.net/free-vector/abstract-background-watercolor-stars_23-2147651165.jpg?_wi=1",
               imageAlt: "Cosmic Sleeve Dress - hand-painted galaxy design",
               isFavorited: false,
             },
@@ -113,7 +113,7 @@ export default function HomePage() {
               price: "$2,800",
               variant: "Abstract Earth Tones  1 of 1",
               imageSrc:
-                "http://img.b2bpic.net/free-photo/close-up-ceramic-texture-background_23-2148383596.jpg",
+                "http://img.b2bpic.net/free-photo/close-up-ceramic-texture-background_23-2148383596.jpg?_wi=1",
               imageAlt: "Brushstroke Jacket - unique hand-painted abstract",
               isFavorited: false,
             },
@@ -123,7 +123,7 @@ export default function HomePage() {
               price: "$1,950",
               variant: "Ombre Gradient  1 of 4",
               imageSrc:
-                "http://img.b2bpic.net/free-photo/young-bearded-tattooed-man-romantic-guy-white-shirt-cap-suspenders-walks-city-revolves-around-lamppost-peaky-blinders-old-fashioned-retro_1321-2039.jpg",
+                "http://img.b2bpic.net/free-photo/young-bearded-tattooed-man-romantic-guy-white-shirt-cap-suspenders-walks-city-revolves-around-lamppost-peaky-blinders-old-fashioned-retro_1321-2039.jpg?_wi=1",
               imageAlt: "Watercolor Pants - hand-painted ombre effect",
               isFavorited: false,
             },
@@ -150,7 +150,7 @@ export default function HomePage() {
             { value: "100%", title: "Hand-Painted by Master Artisans" },
             { value: "Limited", title: "Ultra-Exclusive Production Runs" },
           ]}
-          imageSrc="http://img.b2bpic.net/free-photo/close-up-woman-with-brush-painting_23-2148263488.jpg"
+          imageSrc="http://img.b2bpic.net/free-photo/close-up-woman-with-brush-painting_23-2148263488.jpg?_wi=1"
           imageAlt="Master artisan hand-painting a garment"
           mediaAnimation="slide-up"
           useInvertedBackground={false}
@@ -205,7 +205,7 @@ export default function HomePage() {
               testimonial:
                 "Each piece from ZARAVYA is a conversation starter. The hand-painted details are absolutely mesmerizing—I feel like I'm wearing a gallery.",
               imageSrc:
-                "http://img.b2bpic.net/free-photo/young-handsome-stylish-brunette-man-with-coat-shoulders-intently-looking-camera-outdoor_574295-1313.jpg",
+                "http://img.b2bpic.net/free-photo/young-handsome-stylish-brunette-man-with-coat-shoulders-intently-looking-camera-outdoor_574295-1313.jpg?_wi=1",
               imageAlt: "Isabella Romano",
             },
             {
@@ -215,7 +215,7 @@ export default function HomePage() {
               testimonial:
                 "Finally, luxury that goes beyond logos. The craftsmanship and artistry in every stitch remind me why I invested in ZARAVYA.",
               imageSrc:
-                "http://img.b2bpic.net/free-photo/young-handsome-man-choosing-shirt-shop_1303-19866.jpg",
+                "http://img.b2bpic.net/free-photo/young-handsome-man-choosing-shirt-shop_1303-19866.jpg?_wi=1",
               imageAlt: "Marcus Chen",
             },
             {
@@ -225,7 +225,7 @@ export default function HomePage() {
               testimonial:
                 "ZARAVYA pieces are investment-grade wearable art. The exclusivity and creativity are unmatched in the luxury fashion world.",
               imageSrc:
-                "http://img.b2bpic.net/free-photo/elderly-business-woman-grey-suit-outdoors_1303-29564.jpg",
+                "http://img.b2bpic.net/free-photo/elderly-business-woman-grey-suit-outdoors_1303-29564.jpg?_wi=1",
               imageAlt: "Sophie Beaumont",
             },
             {
@@ -235,7 +235,7 @@ export default function HomePage() {
               testimonial:
                 "Owning a ZARAVYA garment is like owning a miniature art installation. The hand-painted details are breathtaking.",
               imageSrc:
-                "http://img.b2bpic.net/free-photo/transgender-person-wearing-yellow-jacket-make-up_23-2148827068.jpg",
+                "http://img.b2bpic.net/free-photo/transgender-person-wearing-yellow-jacket-make-up_23-2148827068.jpg?_wi=1",
               imageAlt: "James Sterling",
             },
             {
@@ -245,7 +245,7 @@ export default function HomePage() {
               testimonial:
                 "The level of attention to detail is extraordinary. Every brushstroke tells a story. I'm a ZARAVYA collector for life.",
               imageSrc:
-                "http://img.b2bpic.net/free-photo/woman-purple-bathrobe-bedroom_1303-11275.jpg",
+                "http://img.b2bpic.net/free-photo/woman-purple-bathrobe-bedroom_1303-11275.jpg?_wi=1",
               imageAlt: "Amara Okonkwo",
             },
             {
@@ -255,7 +255,7 @@ export default function HomePage() {
               testimonial:
                 "ZARAVYA has redefined what luxury means to me. It's not about the brand—it's about the art, the soul, and the uniqueness.",
               imageSrc:
-                "http://img.b2bpic.net/free-photo/front-view-woman-posing-as-greek-goddess_23-2150099230.jpg",
+                "http://img.b2bpic.net/free-photo/front-view-woman-posing-as-greek-goddess_23-2150099230.jpg?_wi=1",
               imageAlt: "Victoria Ashford",
             },
           ]}
